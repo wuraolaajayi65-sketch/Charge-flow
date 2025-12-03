@@ -1,0 +1,15 @@
+```markdown
+# Vercel / Local environment variables for api/contact.js
+
+# SendGrid API key (recommended). If set, the function will send emails using SendGrid.
+SENDGRID_API_KEY=SG.xxxxxx
+
+# The "from" address used when sending emails. Must be verified in SendGrid.
+SENDGRID_FROM=notifications@yourdomain.com
+
+# The destination (recipient) for contact emails.
+CONTACT_TO=business@yourdomain.com
+
+# Optional: set a custom port for local dev (used by some local emulators)
+PORT=3000
+```
